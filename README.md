@@ -3,7 +3,7 @@
 
 Repositorio de los miembros del grupo Cordialidad compuesto por:
 
-* Bravo Moyano,Alonso
+* Bravo Moyano, Alonso
 * Camús Valdivieso, Alejandro 
 * Cosmin Magurean, Marius
 * Martinez Jimenez, David 
