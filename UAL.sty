@@ -367,3 +367,28 @@ calendar week text={%
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Impresión de capturas de pantalla
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{python}
+
+\graphicspath{{Capturas/}}
+\newcommand{\printCaptura}[2]{
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=\textwidth]{#1}
+        \caption{#2}
+    \end{figure}
+}
+
+\newcommand{\printLista}[0]{
+    \foreach \x in {0,1,2,3,4,5,6}{
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=\textwidth]{pris\x.png}
+        \end{figure}
+    }
+}
+
