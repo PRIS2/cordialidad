@@ -375,20 +375,23 @@ calendar week text={%
 \usepackage{python}
 
 \graphicspath{{Capturas/}}
+
 \newcommand{\printCaptura}[2]{
-    \begin{figure}[htb]
+    \begin{Captura}
         \centering
-        \includegraphics[width=\textwidth]{#1}
+        \includegraphics[width=0.85\textwidth]{#1}
         \caption{#2}
-    \end{figure}
+    \end{Captura}
 }
 
-\newcommand{\printLista}[0]{
-    \foreach \x in {0,1,2,3,4,5,6}{
-        \begin{figure}[htb]
-            \centering
-            \includegraphics[width=\textwidth]{pris\x.png}
-        \end{figure}
-    }
-}
+%\newcommand{\printLista}[0]{
+ %      \begin{figure}[htb]
+  %          \centering
+ %           \includegraphics[width=\textwidth]{pris\x.png}
+   %         \                                        
+   %     \end{figure}
+   % }
+   % \listoffigures
+%}
 
+\newcommand{\printLista}{\listof{Captura}{Lista de capturas}}
